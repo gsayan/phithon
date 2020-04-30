@@ -29,7 +29,7 @@ for i in dir(plt):
     else:
         exec("from matplotlib.pylab import "+i)
 print(Fore.YELLOW+"matplotlib.pylab functions are ready to use"+Fore.WHITE)
-from intg import riems, trapiz, simp13
+#from intg import riems, trapiz, simp13
 initialglobal = tuple(globals())
 
 warn = True
